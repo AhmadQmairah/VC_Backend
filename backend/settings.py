@@ -64,7 +64,9 @@ REST_FRAMEWORK = {
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=36500),
+    'is_doctor': 'is_doctor',
 }
+
 
 ROOT_URLCONF = 'backend.urls'
 
